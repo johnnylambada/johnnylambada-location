@@ -18,7 +18,7 @@ Refer to [jitpack's documentation](https://jitpack.io/) for instructions.
 Add the following lines to your `app/build.gradle` dependencies:
 
 ```groovy
-// https://github.com/johnnylambada/fibamlscan
+// https://github.com/johnnylambada/johnnylambada-location
 implementation "com.github.johnnylambada:johnnylambada-location:0.0.1"
 ```
 
