@@ -91,5 +91,5 @@ implementation "com.github.johnnylambada:johnnylambada-location:0.0.1"
 
 ### Review the sample app to see how to integrate the library.
 
-Review the [MainActivity](https://github.com/johnnylambada/johnnylambada-location/blob/master/app/src/main/java/app/LocationActivity.java), 
+Review the [MainActivity](https://github.com/johnnylambada/johnnylambada-location/blob/master/app/src/main/java/app/MainActivity.java), 
 it shows you how to use the `LocationProvider` from your activity.
