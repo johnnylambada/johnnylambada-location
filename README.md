@@ -19,7 +19,7 @@ Add the following lines to your `app/build.gradle` dependencies:
 
 ```groovy
 // https://github.com/johnnylambada/johnnylambada-location
-implementation "com.github.johnnylambada:johnnylambada-location:0.0.1"
+implementation "com.github.johnnylambada:johnnylambada-location:0.0.2"
 ```
 
 ### Set up the service using the `LocationProvider`
