@@ -1,13 +1,13 @@
-/.idea
+.idea/
 *.iml
-/local.properties
+local.properties
 /build
 /app/build
 /library/build
 /captures
 .externalNativeBuild
 .DS_Store
-.gradle
+.gradle/
 
 # Don't save creds to github
 app/google-services.json

@@ -19,13 +19,13 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    dataBinding {
-        enabled = true
+    buildFeatures {
+        dataBinding = true
     }
 }
 
 dependencies {
     implementation project(':library')
-    implementation "com.android.support:appcompat-v7:${rootProject.ext.androidSupportVersion}"
-    implementation "com.android.support:design:${rootProject.ext.androidSupportVersion}"
+    implementation "androidx.appcompat:appcompat:${rootProject.ext.androidxAppCompat}"
+    implementation "com.google.android.material:material:${rootProject.ext.androidMaterial}"
 }

@@ -25,7 +25,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation "com.google.android.gms:play-services-location:${rootProject.ext.googlePlayServicesVersion}"
-    implementation "android.arch.lifecycle:runtime:${rootProject.ext.androidArchVersion}"
-    implementation "android.arch.lifecycle:common-java8:${rootProject.ext.androidArchVersion}"
-    annotationProcessor "android.arch.lifecycle:compiler:${rootProject.ext.androidArchVersion}"
+    implementation "androidx.lifecycle:lifecycle-runtime:${rootProject.ext.androidxLifecycleRuntime}"
+    implementation "androidx.lifecycle:lifecycle-common-java8:${rootProject.ext.androidxLifecycleCommonJava8}"
 }
